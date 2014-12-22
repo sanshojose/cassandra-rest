@@ -1,0 +1,13 @@
+@(tracks: List[Track]) 
+
+@main("Some Tracks we can look at"){
+	<table>
+    @for(track <- tracks){
+    	
+    	<tr onclick='/tracks/@track.id'>
+		<td><a href='/tracks/@track.id'>@track.artist</a></td><td>@track.title</td>
+    	</tr>
+    	
+    }
+    </table>
+}

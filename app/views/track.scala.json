@@ -1,0 +1,6 @@
+@(track: Track)
+
+{
+  "id": "${track.id}",
+  "name": "${track.artist}",
+}

@@ -1,0 +1,7 @@
+@(track: Track)
+
+<users>
+  <user>
+    <artist>${track.artist}</artist>
+  </user>
+</users>
